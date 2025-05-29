@@ -46,13 +46,12 @@ main {
 }
 
 .texto {
-    display: inline-block;
-    color: white;
-    background-color: black;
+    height: 400px;
+    width: 800px;
 }
 
 .texto h1,
-.texto h2 {
+.texto p {
     display: inline-block;
 }
 
