@@ -31,28 +31,29 @@ main {
 .containerprincipal {
     width:auto;
     background-color: crimson;
-    height: 400px;
+    height: 60vh;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .profile {
     width: 400px;
     height: 400px;
-    display: inline-block;
+    padding: 40px;
 }
 
 .profile img {
     width: 100%;
     height: 100%;
-}
+    border-radius: 40px;
 
 .texto {
-    height: 400px;
-    width: 800px;
-}
-
-.texto h1,
-.texto p {
-    display: inline-block;
+    margin-left: 10px;
+    color: white;
+    text-align: center;
 }
 
 footer {
