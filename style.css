@@ -1,5 +1,13 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+    --corprincipal: rgb(67, 50, 50);
+    --fonteprincipal: arial, helvetica;
+    --fontedestaque: 'montserrat', 'open+sans'
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -16,8 +24,8 @@ header {
     max-height: 50px;
     box-shadow: 5px 2px black;
     text-align: center;
-    padding: 20px;
     color: white;
+    font-family: var(--fontedestaque);
 }
 
 nav {
@@ -48,6 +56,11 @@ main {
     margin: auto;
 }
 
+.redessociaish1 {
+    text-align: center;
+    font-family: var(--fontedestaque);
+}
+
 .aboutme {
     display: flex;
     width: auto;
@@ -55,17 +68,19 @@ main {
     background-color: gray;
     justify-content: space-around;
     align-items: center;
+    font-family: var(--fontedestaque);
+}
+
+.aboutme img {
+    width: 30%;
+    padding: 10px;
+    border-radius: 50%;
 }
 
 .aboutmetexts {
     display: flex;
     flex-direction: column;
     text-align: justify;
-    padding-left: 10px;
-}
-
-.aboutme img {
-    width: 20%;
     padding: 20px;
 }
 
@@ -78,4 +93,12 @@ main {
 .redessociais i {
     color: rgb(7, 78, 120);
     font-size: 120px;
+}
+
+.estudos {
+    display: flex;
+}
+
+.estudos i {
+    font-size: 60px;
 }
