@@ -34,7 +34,7 @@ nav a {
     padding: 5px;
 }
 
-a:hover {
+nav a:hover {
     background-color: chartreuse;
     color: orange;
     border-radius: 20px;
@@ -49,18 +49,33 @@ main {
 }
 
 .aboutme {
-    width: 600px;
-    height: 300px;
-    border: 20px;
-    border-radius: 15px;
+    display: flex;
+    width: auto;
+    height: 400px;
     background-color: gray;
-    text-align: center;
-    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.aboutmetexts {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding-left: 10px;
 }
 
 .aboutme img {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    width: 50%;
+    width: 20%;
+    padding: 20px;
+}
+
+.redessociais {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.redessociais i {
+    color: rgb(7, 78, 120);
+    font-size: 120px;
 }
