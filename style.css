@@ -56,11 +56,6 @@ main {
     margin: auto;
 }
 
-.redessociaish1 {
-    text-align: center;
-    font-family: var(--fontedestaque);
-}
-
 .aboutme {
     display: flex;
     width: auto;
@@ -84,6 +79,37 @@ main {
     padding: 20px;
 }
 
+.estudos-container {
+    display: flex;
+    background-color: pink;
+    height: 500px;
+    width: auto;
+}
+
+.estudosagora {
+    display: flex;
+    width: 50%;
+    background-color: brown;
+    flex-wrap: wrap;
+}
+
+.estudosagora i {
+    font-size: 120px;
+}
+
+.estudosbreve {
+    display: flex;
+    width: 50%;
+    background-color: blueviolet;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.estudosbreve i {
+    font-size: 120px;
+    color: aqua;
+}
+
 .redessociais {
     display: flex;
     gap: 20px;
@@ -95,10 +121,7 @@ main {
     font-size: 120px;
 }
 
-.estudos {
-    display: flex;
-}
-
-.estudos i {
-    font-size: 60px;
+.redessociaish1 {
+    text-align: center;
+    font-family: var(--fontedestaque);
 }
