@@ -16,23 +16,25 @@
 
 body {
     background-color: rgb(37, 33, 33);
+    width: 100vh;
+    height: 100vh;
 }
 
 header {
     background-color: rgb(24, 64, 64);
-    width: auto;
+    width: 100vh;
     max-height: 50px;
     box-shadow: 5px 2px black;
     text-align: center;
     color: white;
     font-family: var(--fontedestaque);
+    display: flex;
+    flex-direction: column;
 }
 
 nav {
-    background-color: blueviolet;
+    background-color: rgb(24, 64, 64);
     color: white;
-    text-align: center;
-    height: 20px;
 }
 
 nav a {
@@ -51,7 +53,7 @@ nav a:hover {
 
 main {
     max-width: 1400px;
-    background-color: white;
+    background-color: rgb(121, 115, 115);
     height: 800px;
     margin: auto;
 }
@@ -60,7 +62,7 @@ main {
     display: flex;
     width: auto;
     height: 400px;
-    background-color: gray;
+    background-color: blueviolet;
     justify-content: space-around;
     align-items: center;
     font-family: var(--fontedestaque);
@@ -77,6 +79,7 @@ main {
     flex-direction: column;
     text-align: justify;
     padding: 20px;
+    color: white;
 }
 
 .estudos-container {
@@ -89,12 +92,24 @@ main {
 .estudosagora {
     display: flex;
     width: 50%;
-    background-color: brown;
+    background-color: blueviolet;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
 }
 
 .estudosagora i {
     font-size: 120px;
+    color: aqua;
+    position: relative;
+    top: 40px;
+}
+
+.estudosagora p {
+    font-family: var(--fontedestaque);
+    text-align: justify;
+    padding: 40px;
 }
 
 .estudosbreve {
@@ -103,11 +118,21 @@ main {
     background-color: blueviolet;
     flex-wrap: wrap;
     gap: 20px;
+    align-items: start;
+    justify-content: center;
 }
 
 .estudosbreve i {
     font-size: 120px;
     color: aqua;
+    position: relative;
+    top: 40px;
+}
+
+.estudosbreve p {
+    font-family: var(--fontedestaque);
+    text-align: justify;
+    padding: 40px;
 }
 
 .redessociais {
