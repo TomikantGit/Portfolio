@@ -16,25 +16,28 @@
 
 body {
     background-color: rgb(37, 33, 33);
-    width: 100vh;
-    height: 100vh;
 }
 
 header {
     background-color: rgb(24, 64, 64);
-    width: 100vh;
     max-height: 50px;
     box-shadow: 5px 2px black;
     text-align: center;
     color: white;
     font-family: var(--fontedestaque);
-    display: flex;
-    flex-direction: column;
 }
 
 nav {
     background-color: rgb(24, 64, 64);
+    height: 120px;
     color: white;
+    display: flex;
+    flex-direction: column;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    position: fixed;
+    bottom: 50%;
+    top: 40%;
 }
 
 nav a {
@@ -52,7 +55,7 @@ nav a:hover {
 }
 
 main {
-    max-width: 1400px;
+    max-width: 1200px;
     background-color: rgb(121, 115, 115);
     height: 800px;
     margin: auto;
@@ -136,14 +139,25 @@ main {
 }
 
 .redessociais {
+    background-color: rgb(24, 64, 64);
+    height: 200px;
+    color: white;
     display: flex;
-    gap: 20px;
+    flex-direction: column;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    position: fixed;
+    right: 0px;
+    bottom: 50%;
+    top: 40%;
     justify-content: center;
+    align-items: center;
+
 }
 
 .redessociais i {
     color: rgb(7, 78, 120);
-    font-size: 120px;
+    font-size: 40px;
 }
 
 .redessociaish1 {
