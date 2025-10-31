@@ -1,166 +1,47 @@
-@charset "UTF-8";
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-
-:root {
-    --corprincipal: rgb(67, 50, 50);
-    --fonteprincipal: arial, helvetica;
-    --fontedestaque: 'montserrat', 'open+sans'
-}
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
 }
 
 body {
-    background-color: rgb(37, 33, 33);
+    background-color: rgba(152, 12, 12, 0.597);
 }
 
 header {
-    background-color: rgb(24, 64, 64);
-    max-height: 50px;
-    box-shadow: 5px 2px black;
     text-align: center;
-    color: white;
-    font-family: var(--fontedestaque);
 }
 
 nav {
-    background-color: rgb(24, 64, 64);
-    height: 120px;
-    color: white;
     display: flex;
-    flex-direction: column;
-    border-bottom-right-radius: 20px;
-    border-top-right-radius: 20px;
-    position: fixed;
-    bottom: 50%;
-    top: 40%;
-}
-
-nav a {
-    text-decoration: none;
-    color: white;
-    margin-right: 15px;
-    padding: 5px;
-}
-
-nav a:hover {
-    background-color: chartreuse;
-    color: orange;
-    border-radius: 20px;
-    padding: 4px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center
 }
 
 main {
     max-width: 1200px;
-    background-color: rgb(121, 115, 115);
-    height: 800px;
+    background-color: white;
     margin: auto;
 }
 
-.aboutme {
-    display: flex;
+.about-me {
+    width: auto;
+    background-color: blueviolet;
+    height: 400px;
+}
+
+.social {
     width: auto;
     height: 400px;
-    background-color: blueviolet;
-    justify-content: space-around;
-    align-items: center;
-    font-family: var(--fontedestaque);
+    background-color: aquamarine;
 }
 
-.aboutme img {
-    width: 30%;
-    padding: 10px;
-    border-radius: 50%;
-}
-
-.aboutmetexts {
+.redes-icons {
     display: flex;
-    flex-direction: column;
-    text-align: justify;
-    padding: 20px;
-    color: white;
-}
-
-.estudos-container {
-    display: flex;
-    background-color: pink;
-    height: 500px;
-    width: auto;
-}
-
-.estudosagora {
-    display: flex;
-    width: 50%;
-    background-color: blueviolet;
-    flex-wrap: wrap;
     justify-content: center;
-    align-items: start;
-    gap: 20px;
+    flex-direction: row;
 }
 
-.estudosagora i {
-    font-size: 120px;
-    color: aqua;
-    position: relative;
-    top: 40px;
-}
-
-.estudosagora p {
-    font-family: var(--fontedestaque);
-    text-align: justify;
-    padding: 40px;
-}
-
-.estudosbreve {
-    display: flex;
-    width: 50%;
-    background-color: blueviolet;
-    flex-wrap: wrap;
-    gap: 20px;
-    align-items: start;
-    justify-content: center;
-}
-
-.estudosbreve i {
-    font-size: 120px;
-    color: aqua;
-    position: relative;
-    top: 40px;
-}
-
-.estudosbreve p {
-    font-family: var(--fontedestaque);
-    text-align: justify;
-    padding: 40px;
-}
-
-.redessociais {
-    background-color: rgb(24, 64, 64);
-    height: 200px;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    border-bottom-left-radius: 20px;
-    border-top-left-radius: 20px;
-    position: fixed;
-    right: 0px;
-    bottom: 50%;
-    top: 40%;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.redessociais i {
-    color: rgb(7, 78, 120);
-    font-size: 40px;
-}
-
-.redessociaish1 {
-    text-align: center;
-    font-family: var(--fontedestaque);
+.redes-icons ul {
+    list-style-type: none;
 }
