@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 body {
@@ -38,8 +39,15 @@ main {
 .card-social {
     width: 200px;
     height: 400px;
-    border: 20px;
-    border-color: blue;
-    background-color: green;
+    background-color: rgb(128, 0, 79);
     margin-right: 20px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.333);
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    outline: 20px;
+}
+
+i {
+    font-size: 80px;
 }
